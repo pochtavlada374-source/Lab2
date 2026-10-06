@@ -1,4 +1,7 @@
 name = input('Введите ваше имя:')
 last_name= input('Введите свою фамилию:')
 age= input('Введите ваш возраст:')
-print('Ваши Данные',name, last_name, age, sep='\n')
+height= input('Введите ваш рост:')
+age_int= int(age)
+height_float= float(height)
+print('Ваши данные', name, last_name, age_int, type(age_int), height_float, type(height_float), sep='\n')
