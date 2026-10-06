@@ -1,2 +1,5 @@
-for i in range(0, 21, 2):
-    print(i)
+n= int(input())
+c=0
+for i in range(1, n+1):
+    c= c+i
+print(c)
