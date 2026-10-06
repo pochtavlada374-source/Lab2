@@ -1,5 +1,5 @@
-n= int(input())
-c=0
-for i in range(1, n+1):
-    c= c+i
-print(c)
+count= 10
+while count !=0:
+    print(count)
+    count= count-1
+print("Цикл завершен")
