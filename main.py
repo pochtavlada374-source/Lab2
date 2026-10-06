@@ -1,7 +1,3 @@
-name = input('Введите ваше имя:')
-last_name= input('Введите свою фамилию:')
-age= input('Введите ваш возраст:')
-height= input('Введите ваш рост:')
-age_int= int(age)
-height_float= float(height)
-print('Ваши данные', name, last_name, age_int, type(age_int), height_float, type(height_float), sep='\n')
+a= 15
+b= 4
+print(a+b, a-b, a*b, a/b, a//b, a%b, a**b, sep='\n')
