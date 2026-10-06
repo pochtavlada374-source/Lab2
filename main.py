@@ -1,11 +1,9 @@
-d= int(input())
-if d>0 and d%2==0:
-    m= 'Число положительное'
-elif d<0:
-    m= 'Число отрицательное'
-elif d==0:
-    m= 'Число равно нулю'
-if d%2==0:
-    n= 'Чётное'
-else: n= 'Нечетное'
-print(m, n)
+age = 19
+has_access = True
+print('Возраст:', age)
+if age >= 18 and has_access== True:
+    print("Допуск имеется:", has_access)
+    print("Доступ разрешён")
+else:
+    print("Допуск имеется:", has_access)
+    print("Доступ запрещён.")
