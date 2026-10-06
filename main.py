@@ -1,6 +1,11 @@
-import math
-radius = 10
-d= 2 * math.pi * radius
-s= math.pi * radius ** 2
-k= math.sqrt(25)
-print(d, s, k)
+d= int(input())
+if d>0 and d%2==0:
+    m= 'Число положительное'
+elif d<0:
+    m= 'Число отрицательное'
+elif d==0:
+    m= 'Число равно нулю'
+if d%2==0:
+    n= 'Чётное'
+else: n= 'Нечетное'
+print(m, n)
